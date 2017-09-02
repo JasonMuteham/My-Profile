@@ -1,15 +1,32 @@
 .image-style {
-  /*  border-radius: 50%;*/
-  width: 280px;
+  width: 250px;
   height: auto;
 }
-
-* {
-  /*font-family: fantasy;
-  font-family: 'Cinzel', serif;
-  */
+.container-fluid {
+  padding: 0;
 }
 
 .hw {
   font-family: 'Loved by the King', cursive;
+}
+nav {
+  opacity: 0.8;
+  background-color: darkblue;
+}
+body {
+  background: lightcyan;
+}
+#hello {
+  text-align: center;
+  color: white;
+  font-size: 10em;
+  background-color: blue;
+  font-family: 'Loved by the King', cursive;
+}
+#skills {
+  color: white;
+  text-align: center;
+}
+footer {
+  font-size: 10px;
 }
