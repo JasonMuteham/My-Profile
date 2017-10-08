@@ -1,32 +1,43 @@
 .image-style {
-  width: 250px;
-  height: auto;
+    width: 250px;
+    height: auto;
 }
+
 .container-fluid {
-  padding: 0;
+    padding: 0;
 }
 
 .hw {
-  font-family: 'Loved by the King', cursive;
+    font-family: 'Loved by the King', cursive;
 }
 nav {
-  opacity: 0.8;
-  background-color: darkblue;
+    opacity: 0.8;
+    background-color: darkblue;
 }
 body {
-  background: lightcyan;
+    background: lightcyan;
 }
-#hello {
-  text-align: center;
-  color: white;
-  font-size: 10em;
-  background-color: blue;
-  font-family: 'Loved by the King', cursive;
+.shadow {
+    /* text-align: center; */
+    /* color: white; */
+    /* font-size: 10em; */
+    /* background-color: blue; */
+    /*     font-family: 'Loved by the King', cursive; */
+        /* text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.6); */
+    /* text-shadow: 0px 8px 13px rgba(0, 0, 0, 0.4); */
+    /* text-shadow: 0px 18px 23px rgba(0, 0, 0, 0.3); */
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.3),
+    0px 8px 13px rgba(0, 0, 0, 0.1),
+     0px 18px 23px rgba(0, 0, 0, 0.1);
+
+    /* text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1) */
 }
 #skills {
-  color: white;
-  text-align: center;
+    color: white;
+    text-align: center;
 }
 footer {
-  font-size: 10px;
+    font-size: 10px;
 }
